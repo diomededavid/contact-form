@@ -14,7 +14,6 @@
     --white: #eceffd;
     --font-family-sans-serif: Nunito, "Helvetica Neue", sans-serif;
     --white-12-opacity: rgba(255, 255, 255, 0.12);
-
     --xx-small: 375px;
     --x-small: 400px;
     --small: 600px;
@@ -22,7 +21,6 @@
     --tablet: 1024px;
     --large: 1280px;
     --x-large: 1920px;
-
 }
 
 body {
@@ -30,7 +28,6 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 
 .demo-card-wide.mdl-card {
     width: 100%;
@@ -53,7 +50,6 @@ body {
     -ms-flex-align: center;
     align-items: center;
 }
-
 
 .demo-card-wide.mdl-card > *:nth-child(1) {
     -ms-grid-row: 1;
@@ -95,12 +91,10 @@ body {
     grid-template-rows: repeat(2, auto);
 }
 
-
 .mdl-textfield__label:after {
     font-family: Nunito, var(--font-family-sans-serif) !important;
     background-color: var(--accent) !important;
 }
-
 
 .mdl-button--colored {
     background: var(--surface) !important;
