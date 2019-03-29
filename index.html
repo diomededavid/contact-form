@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact form</title>
+        <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-light_green.min.css">
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+    <div class="mdl-card__title">
+
+        <div>
+            <!-- Image is alreadyy commited to the Joomla repo-->
+            <img src="https://images.trackithub.com/assets/graphics/contact-graphic.svg" alt="contact">
+        </div>
+    </div>
+    <div>
+        <div>
+            <h2 class="mdl-card__title-text">Contact</h2>
+            <!-- Simple Textfield -->
+            <form action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="fname">
+                    <label class="mdl-textfield__label" for="fname">Full Name</label>
+                </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" id="email">
+                    <label class="mdl-textfield__label" for="email">Enter your email</label>
+                </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                    <input type="text" value="" class="mdl-textfield__input" id="howcanwe">
+                    <input type="hidden" value="" name="howcanwe">
+                    <label for="howcanwe" class="mdl-textfield__label">How can we help?</label>
+                    <ul for="howcanwe" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                        <li class="mdl-menu__item" data-val="ppl">Premier Pickleball Leagues</li>
+                        <li class="mdl-menu__item" data-val="club">Club Play</li>
+                        <li class="mdl-menu__item" data-val="general">Russia</li>
+                    </ul>
+                </div>
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select">
+                    <textarea class="mdl-textfield__input" type="text" rows="1" maxrows="6" id="message"></textarea>
+                    <label class="mdl-textfield__label" for="message">Enter your message</label>
+                </div>
+                <div>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored float--right"
+                            type="submit">Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+</html>
